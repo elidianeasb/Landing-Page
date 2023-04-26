@@ -30,7 +30,7 @@ body {
 
 .capa h1 {
   font-size: 80px;
-  padding-top: 150px;
+  padding-top: 100px;
   margin-bottom: 15px;
   width: 100px;
 }
@@ -54,7 +54,7 @@ body {
 }
 
 .painel h2 {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 10px;
   text-align: center;
   font-weight: bold;
@@ -63,7 +63,6 @@ body {
 
 .description {
   font-size: 22px;
-  padding-top: 10px;
   padding-left: 200px;
   margin-right: 100px;
   color: black;
@@ -102,6 +101,7 @@ ul li a:hover {
 
 .paragrafo {
   align-self: start;
+  text-shadow: 0.2em 0.2em 0.5em rgb(235, 233, 233)
 }
 
 .footer {
