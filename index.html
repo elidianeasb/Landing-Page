@@ -1,92 +1,343 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Visite Lisboa</title>
-  <meta charset="utf-8">
-  <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/6a990b9216.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <script src="https://kit.fontawesome.com/6a990b9216.js" crossorigin="anonymous"></script>
-
-  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Scroll reveal-->
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <!-- Remix icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="bg ">
-    <div class="capa">
-      <div class="animate__animated animate__fadeInDownBig animate__slow">
-        <h1>VISITE<span style="color:FEBD0D; font-size:100px"> LISBOA</span></h1>
-        <p class="paragrafo">Planejanto viajar para Lisboa?
-          <br> Aqui você irá encontrar todas as informações
-          <br> necessárias para aproveitar ao máximo sua
-          <br>viagem na capital de Portugal
-        </p>
+          
+
+  <!-- Start header -->
+
+  <header class="header" id="header">
+
+    <nav class="nav active container td-header-menu-wrap td-header-gradient" id="nav">
+      <a href="./index copy.html" class="logo"><span>Visite</span> Lisboa</a>
+      <div class="nav-mobile">
+        <ul class="list">
+          <li class="list-item">
+            <a href="#" class="list-link current">Home</a>
+          </li>
+          <li class="list-item">
+            <a href="#popular-destinations" class="list-link">Pontos Turísticos</a>
+          </li>
+          <li class="list-item">
+            <a href="#plan-trip" class="list-link">Planeje sua viagem</a>
+          </li>
+          <li class="list-item lg-screen-hidden">
+            <a href="#newsletter" class="list-link ">Book now</a>
+          </li>
+        </ul>
       </div>
-      <div class="animate__animated animate__fadeInUpBig animate__slow">
-        <a href="https://web.whatsapp.com/" target="_blank" class="btn">Fale com um especialista</a>
+
+      <a href="https://wa.me/+351937087380" class="btn sm-screen-hidden">Contacte-nos</a>
+
+      <div class="menu-toggle-icon lg-screen-hidden place-items-center" id="menu-toggle-icon">
+        <i class="ri-menu-3-line menu-open-icon"></i>
+        <i class="ri-close-fill menu-close-icon"></i>
+
       </div>
-    </div>            
-  </div>
- 
-  <div class="painel">
-      <h2>O QUE FAZ LISBOA ESPECIAL?</h2> 
-    <div class="description">    
-      Lisboa é a capital de Portugal, situada na costa. Do imponente Castelo de São Jorge, a vista abrange as
-      construções em tons pastel da cidade antiga, o estuário do Tejo
-      e a Ponte 25 de Abril. Perto dali, o Museu Nacional do Azulejo exibe 5 séculos de azulejos decorativos. Nas
-      proximidades de Lisboa, há uma sequência de praias do Atlântico,
-      entre elas Cascais e Estoril.
+    </nav>
+  </header>
+
+  <!-- End header -->
+
+  <!-- Start main -->
+  <main>
+    <!-- Start showcase -->
+    
+    <section class="showcase section " id="showcase">
+      <div class="showcase-container container d-grid">
+        <div class="showcase-data order-2">
+          <span class="tagline">Inicie sua jornada</span>
+          <h1 class="title main-title">
+            Tudo que precisa saber para sua viagem a <span class="accent-text">Lisboa</span>
+          </h1>
+          <p class="description dark-text">
+            Aqui você irá encontrar todas as informações necessárias para aproveitar ao máximo sua viagem a capital de
+            Portugal.
+          </p>
+          <a href="https://www.youtube.com/watch?v=ArSTeAiFWt4" class="btn">Explorar</a>
+        </div>
+
+        <div class="image-group order-1 d-grid">
+          <div class="image-box image-left">
+            <img src="/imagens/praca-do-comercio.jpg" alt="praca do comercio">
+          </div>
+          <div class="image-box image-center">
+            <img src="/imagens/castelo-s-jorge.jpeg" alt="castelo de sao jorge">
+          </div>
+          <div class="image-box image-right">
+            <img src="/imagens/torre-de-belem.jpg" alt="torre de belem">
+          </div>
+        </div>     
+        
+      </div>
+
+    </section>
+
+    <!-- End showcase -->
+
+    <!-- Start popular-destinations -->
+    <section class="popular-destinations section bg" id="popular-destinations">
+      <div class="popular-destinations-container container d-grid">
+        <div class="popular-destinations-data">
+          <span class="tagline title">Pontos Turísticos</span>
+          <h2 class="title-text">
+            mais populares de <span class="title">Lisboa</span>
+          </h2>
+          <p class="description">
+            Explore Lisboa. Uma capital autêntica, onde hábitos antigos e história secular se cruzam com animação cultural e inovação tecnológica.
+          </p>
+          <a href="https://www.youtube.com/watch?v=ArSTeAiFWt4" class="btn">Explorar</a>
+        </div>
+
+
+        <div class="data-wrapper image-box">
+          <div class="data">
+            <div class="data-inner width-50">
+              <h3 class="name">Praça do Comércio</h3>
+              <span class="location">
+                <span class="accent-text">
+                  <i class="ri-map-pin-line"></i>
+                </span> Lisbon, Portugal
+              </span>
+            </div>
+            <a href="https://pt.wikipedia.org/wiki/Pra%C3%A7a_do_Com%C3%A9rcio" class="btn place-items-center">
+              <i class="ri-arrow-right-s-line"></i>
+            </a>
+          </div>
+          <img src="/imagens/praca-do-comercio1.jpg" alt="praca do comercio">
+        </div>
+
+
+        <div class="secondary-grid d-grid">
+          <div class="data-wrapper image-box image-box-left">
+            <div class="data">
+              <div class="data-inner">
+                <h3 class="name">Mosteiro dos Jerónimos</h3>
+                <span class="location">
+                  <span class="accent-text">
+                    <i class="ri-map-pin-line"></i>
+                  </span> Lisbon, Portugal
+                </span>
+              </div>
+              <a href="https://www.jeronimosmonasterytickets.com/pt/" class="btn place-items-center">
+                <i class="ri-arrow-right-s-line"></i>
+              </a>
+            </div>
+            <img src="/imagens/jeronimos.jpg" alt="mosteiro dos jeronimos">
+          </div>
+
+
+          <div class="data-wrapper image-box image-box-center">
+            <div class="data">
+              <div class="data-inner">
+                <h3 class="name">Oceanário de Lisboa</h3>
+                <span class="location">
+                  <span class="accent-text">
+                    <i class="ri-map-pin-line"></i>
+                  </span> Lisbon, Portugal
+                </span>
+              </div>
+              <a href="https://www.oceanario.pt/" class="btn place-items-center">
+                <i class="ri-arrow-right-s-line"></i>
+              </a>
+            </div>
+            <img src="/imagens/oceanario.jpg" alt="oceanario">
+          </div>
+
+
+          <div class="data-wrapper image-box image-box-right">
+            <div class="data">
+              <div class="data-inner ">
+                <h3 class="name">Castelo de São Jorge</h3>
+                <span class="location">
+                  <span class="accent-text">
+                    <i class="ri-map-pin-line"></i>
+                  </span> Lisbon, Portugal
+                </span>
+              </div>
+              <a href="https://castelodesaojorge.pt/" class="btn place-items-center">
+                <i class="ri-arrow-right-s-line"></i>
+              </a>
+            </div>
+            <img src="/imagens/castelo-s-jorge.jpeg" alt="castelo de sao jorge">
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+
+    <!-- End popular-destinations -->
+
+    <!-- Start plan trip -->
+    <section class="plan-trip section" id="plan-trip">
+      <div class="plan-trip-container container d-grid">
+        <div class="plan-trip-data">
+          <span class="tagline">Consulte um dos nossos especialistas</span>
+          <h1 class="main-title">
+            Planeje sua viagem a <span class="accent-text">Lisboa!</span>
+          </h1>
+          <p class="description">
+            Aqui você irá encontrar todas as informações necessárias para aproveitar ao máximo sua viagem na capital de
+            Portugal
+          </p>
+          <a href="https://wa.me/+351937087380" class="btn">Consulte um especialista</a>
+        </div>
+        <div class="data-wrapper image-box">
+          <a href="https://wa.me/+351937087380"><img src="/imagens/banner.png" alt="+351937087380"></a>          
+        </div>
+      </div>
+    </section>
+
+
+    <!-- End plan trip -->
+
+
+    <!-- Start newsletter -->
+
+    <section class="newsletter section" id="newsletter">
+      <div class="newsletter-container container">
+        <div class="newsletter-cointainer-inner">
+          <h2 class="title">
+            Inscreva-se agora para receber as últimas notícias do Visite Lisboa. Ou comece a planejar sua viagem fazendo uma cotação hoje mesmo!
+          </h2>
+          <p class="description">
+            Nossos especialistas podem te ajudar a planear sua viagem perfeita.
+          </p>
+          <div class="btn-group">
+            <form action="">
+              <input type="text" class="input" placeholder="Endereço de email">
+            </form>
+            <a href="#" class="btn" id="subscribe-btn">Subscrever</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End newsletter -->
+  </main>
+
+  <!-- End main -->
+
+  
+
+  <!-- Start footer -->
+  <footer class="footer section">
+    <div class="footer-container container">
+      <div class="footer-container-inner d-grid">
+
+        <div>
+          <h6 class="title footer-title">Sobre Lisboa</h6>
+          <ul class="list">
+            <li class="list-item">
+              <a href="https://www.visitlisboa.com/pt-pt/p/chegar-a-lisboa" class="list-link">Chegar a Lisboa</a>
+            </li>
+            <li class="list-item">
+              <a href="https://guia.melhoresdestinos.com.br/dicas-de-lisboa-157-1804-p.html" class="list-link">Informações úteis</a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.tripadvisor.pt/Attractions-g189158-Activities-c47-Lisbon_Lisbon_District_Central_Portugal.html" class="list-link">Postais</a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.youtube.com/watch?v=ArSTeAiFWt4" class="list-link">Videos</a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.visitlisboa.com/pt-pt/galleries/galeria" class="list-link">Fotos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="title footer-title">O que fazer?</h6>
+          <ul class="list">
+            <li class="list-item">
+              <a href="https://www.timeout.pt/lisboa/pt/cultura" class="list-link">Arte e Cultura</a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.timeout.pt/lisboa/pt/coisas-para-fazer/actividades-ao-ar-livre-em-lisboa" class="list-link">Atividades ar livre</a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.timeout.pt/lisboa/pt/miudos/fim-de-semana-perfeito-em-familia" class="list-link">Familia</a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.tripadvisor.com.br/Attractions-g189158-Activities-c42-t204-Lisbon_Lisbon_District_Central_Portugal.html" class="list-link">Gastronomia e Vinhos</a>
+            </li>
+            <li class="list-item">
+              <a href="https://lisboasecreta.co/as-10-praias-mais-incriveis-nos-arredores-de-lisboa/" class="list-link">Sol e Mar</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h6 class="title footer-title">Artigos em destaque</h6>
+          <ul class="list">
+            <li class="list-item">
+              <a href="https://dicasdelisboa.com.br/hospedagem/como-achar-hoteis-por-precos-incriveis-lisboa-portuga/" class="list-link">Como reservar alojamento barato</a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.almadeviajante.com/como-comprar-voos-baratos/" class="list-link">Como comprar voos baratos</a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.melhoresdestinos.com.br/roteiro-em-lisboa.html" class="list-link">Guias e roteiros de viagem</a>
+            </li>
+            <li class="list-item">
+              <a href="https://indiecampers.pt/road-trips/roteiro-lisboa" class="list-link">Roadtrips</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-information">
+          <h6 class="title footer-title">Contato</h6>
+          <address>
+            <span>Lisbon, Pt</span>
+            <a href="tel:800-555-555" class="underline">+351 555-555-555</a>
+            <a href="mailto:" class="underline">visitelisboa@gmail.com</a>
+          </address>
+          <ul class="list">
+            <li class="list-item">
+              <a href="https://www.facebook.com/" class="list-link">
+                <i class="ri-facebook-circle-fill ri" style="color: #3b5999"></i>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="https://www.instagram.com/" class="list-link">
+                <i class="ri-instagram-fill ri" style="color: #e01a66"></i>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="https://twitter.com/" class="list-link">
+                <i class="ri-twitter-fill ri" style="color: #00aced"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <hr class="footer-separator">
+
+      <span class="copyright">&copy; 2023 VisiteLisboa Inc. All rights reserd.</span>
     </div>
-    <h2>PRINCIPAIS PONTOS TURÍSTICOS DE LISBOA</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <a href="https://pt.wikipedia.org/wiki/Torre_de_Bel%C3%A9m"><img src="imagens/torre-de-belem.jpg"
-              class="img-fluid rounded" alt=""></a>
-        </div>
-        <div class="col">
-          <a href="http://castelodesaojorge.pt/"><img src="imagens/castelo-s-jorge.jpg" class="img-fluid rounded"
-              alt=""></a>
-        </div>
-        <div class="col">
-          <a href="https://pt.wikipedia.org/wiki/Pra%C3%A7a_do_Com%C3%A9rcio"><img src="imagens/praca-do-comercio.jpg"
-              class="img-fluid rounded" alt=""></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col d-none d-md-block">
-          <a href="https://web.whatsapp.com/"><img src="imagens/banner.png" class="img-fluid rounded mt-4 mb-4" alt=""></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <a href="https://padraodosdescobrimentos.pt/"><img src="imagens/padrao-dos-descobrimentos.jpg"
-              class="img-fluid rounded" alt=""></a>
-        </div>
-        <div class="col">
-          <a href="https://www.patrimoniocultural.gov.pt/pt/museus-e-monumentos/dgpc/m/mosteiro-dos-jeronimos/"></a>
-          <img src="imagens/jeronimos.jpg" class="img-fluid rounded" alt="">
-        </div>
-        <div class="col">
-          <a href="https://www.oceanario.pt/"><img src="imagens/oceanario.jpg" class="img-fluid rounded" alt=""></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer">
-    <a href="https://web.whatsapp.com/" target="_blank" class="btn">Fale com um especialista</a>
-    <div class="footer-bg">
-      <ul>
-        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-      </ul>
-    </div>
-  </div>
+  </footer>
+
+  <!-- End footer -->
+
+  <!-- Custom script -->
+
+  <script src="/main.js"></script>
 </body>
+
 </html>
