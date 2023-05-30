@@ -477,12 +477,11 @@ i{
 .footer{
   background-color: var(--light-clr);
   padding-bottom: 5rem;
-  padding: var(--margin-lg);
 }
 
 .footer-container-inner{
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap:10rem;
+  gap:5rem;
 }
 
 .contact-information address{
