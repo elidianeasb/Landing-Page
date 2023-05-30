@@ -481,8 +481,6 @@ i{
 }
 
 .footer-container-inner{
-  display: flex;
-  justify-content:space-around;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap:10rem;
 }
