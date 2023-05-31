@@ -153,7 +153,7 @@ i{
 .list-link.current::after{
   content: '';
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: -1rem;
   transform: translateY(-50%);
   width: .5rem;
