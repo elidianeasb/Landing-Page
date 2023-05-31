@@ -30,6 +30,7 @@ const headerScrollEvent = () => {
 
 window.addEventListener('scroll', headerScrollEvent)
 
+
 // Add selected link styles to the link clicked and close navigation when clicking the links
 navLinks.forEach(link => link.addEventListener('click', () => {
     navMobile.classList.remove('active');
